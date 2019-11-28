@@ -1,8 +1,0 @@
-docs
-.browserlistrc
-.editorconfig
-.sass-lint.yml
-.travis.yml
-gulpfile.js
-.github
-postcss.config.js
