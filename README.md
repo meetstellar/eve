@@ -1,1 +1,1 @@
-# meetStellar's Fork of [eve](https://kanbanize.github.io/eve/)
+# meetStellar's Fork of [eve](https://kanbanize.github.io/eve/)s
