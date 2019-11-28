@@ -21,10 +21,11 @@ $eve-radio-size: 1.125rem;
             position: absolute;
             top: 0;
             width: 100%;
+            transition: background 0.3s, border 0.3s, color 0.3s;
 
             &:checked ~ i {
-                background: $eve-color-success;
-                border-color: $eve-color-success;
+                background: $eve-color-primary;
+                border-color: $eve-color-primary;
 
                 &::after {
                     display: block;
