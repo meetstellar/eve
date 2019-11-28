@@ -10,6 +10,7 @@ $eve-checkbox-mark-border-width: .125rem;
     position: relative;
     vertical-align: top;
     width: $eve-checkbox-size;
+    transition: background 0.3s, border 0.3s, color 0.3s;
 
     input {
         &[type='checkbox'] {
@@ -22,10 +23,12 @@ $eve-checkbox-mark-border-width: .125rem;
             position: absolute;
             top: 0;
             width: 100%;
+            transition: background 0.3s, border 0.3s, color 0.3s;
 
             &:checked ~ i {
-                background: $eve-color-success;
-                border-color: $eve-color-success;
+                background: $eve-color-primary;
+                border-color: $eve-color-primary;
+                transition: background 0.3s, border 0.3s, color 0.3s;
 
                 &::after {
                     display: block;
@@ -60,6 +63,7 @@ $eve-checkbox-mark-border-width: .125rem;
         pointer-events: none;
         position: relative;
         width: 100%;
+        transition: background 0.3s, border 0.3s, color 0.3s;
 
         &::after {
             border-bottom: $eve-checkbox-mark-border-width solid $eve-color-light;

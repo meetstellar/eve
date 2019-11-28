@@ -23,6 +23,7 @@ $eve-button-size: 2.25rem;
     user-select: none;
     vertical-align: top;
     white-space: nowrap;
+    transition: background 0.5s, color 0.5s, border 0.5s;
 
     svg {
         fill: $eve-color-light;
@@ -30,6 +31,7 @@ $eve-button-size: 2.25rem;
         margin-left: -.25rem;
         margin-right: .5rem;
         width: $eve-button-size / 2;
+        transition: fill 0.5s;
     }
 
     &.is-outlined {
@@ -42,8 +44,13 @@ $eve-button-size: 2.25rem;
         }
 
         &:hover {
-            background: lighten($eve-color-primary, 40);
-            border-color: lighten($eve-color-primary, 40);
+            background: $eve-color-primary-light;
+            border-color: $eve-color-primary-light;
+            color: $eve-color-light;
+
+            svg {
+                fill: $eve-color-light;
+            }
         }
     }
 

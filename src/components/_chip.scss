@@ -33,12 +33,16 @@ $eve-chip-size: 2rem;
         margin: 0 -.25rem 0 .5rem;
         padding: .125rem;
         width: 1.125rem;
+        transition: background 0.5s;
 
         svg {
             fill: $eve-color-light;
             height: 100%;
             width: 100%;
         }
+    }
+    .eve-chip-action:hover {
+        background: $eve-color-primary;
     }
 }
 
